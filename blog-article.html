@@ -203,7 +203,35 @@
                                             <textarea class="form-control" id="message"></textarea>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
+
+                                    <div class="col-lg-6 col-md-126">
+                                        <div class="capcha-block">
+                                            <!-- <img src="img/capcha-img.png" alt="img"> -->
+                                            <p>Please check the box below to proceed.</p>
+                                            <form action="?" method="POST">
+                                                <div class="g-recaptcha"
+                                                    style="transform:scale(0.8); transform-origin:0;"
+                                                    data-sitekey="6Lf2yFUcAAAAAEJItbNuQ8-GrSHRzObPH4o_Y8sy"></div>
+                                                <!-- <br />
+                                                <input type="submit" value="Submit"> -->
+                                            </form>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-6 col-md-12">
+                                        <div class="contactus__submitbox submit-box">
+                                            <div class="submit-box__left">
+                                                <p>*denotes a mandatory field</p>
+                                                <input class="submit-box__btn" type="submit" value="SEND">
+                                            </div>
+                                            <div class="submit-box__right">
+                                                <img src="img/figure-form.svg" alt="img">
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <!-- <div class="col-md-6">
                                         <div class="capcha-block">
                                             <img src="img/capcha-img.png" alt="img">
                                         </div>
@@ -218,7 +246,7 @@
                                                 <img src="img/figure-form.svg" alt="img">
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
 
@@ -320,6 +348,7 @@
 
     <script src="js/lib/jquery.js"></script>
     <script src="js/lib/bootstrap.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script src="js/common.js"></script>
 </body>
 
